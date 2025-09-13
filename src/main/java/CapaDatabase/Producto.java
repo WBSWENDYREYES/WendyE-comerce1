@@ -10,7 +10,7 @@ public class Producto {
     private int existencia;
 
     // Constructor
-    public Producto() {
+    public Producto(int idproducto,String referencia, String descripcion, String descripampliada, double precio, int existencia) {
         this.idproducto = idproducto;
         this.referencia = referencia;
         this.descripcion = descripcion;

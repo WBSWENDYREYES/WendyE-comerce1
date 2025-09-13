@@ -4,9 +4,9 @@ public class ProductoFisico extends Producto {
     private double pesoKg;
     private String dimensiones;
 
-    public ProductoFisico(int id, String nombre, String descripcion, double precio, int stock,
+    public ProductoFisico(int idproducto,String referencia, String descripcion, String descripampliada, double precio, int existencia,
                           double pesoKg, String dimensiones) {
-        super(idproducto, referencia,descripcion,descripampliada,precio,existencia);
+        super(idproducto, referencia, descripcion, descripampliada, precio, existencia);
         this.pesoKg = pesoKg;
         this.dimensiones = dimensiones;
     }

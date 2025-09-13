@@ -7,7 +7,7 @@ public class ProductoDigital extends Producto {
     public ProductoDigital(int idproducto, String referencia,  String descripcion, String descripampliada, double precio, int existencia,
                            String formatoArchivo, double tamanoMB) 
     {
-    	super(idproducto, referencia,descripcion,descripampliada,precio,existencia);
+    	super(idproducto, referencia, descripcion, descripampliada, precio, existencia);
     	this.formatoArchivo = formatoArchivo;
         this.tamanoMB = tamanoMB;
     }
