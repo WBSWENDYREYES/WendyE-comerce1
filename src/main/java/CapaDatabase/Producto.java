@@ -10,7 +10,7 @@ public class Producto {
     private int existencia;
 
     // Constructor
-    public Producto(int idproducto, String referencia,  String descripcion, String descripampliada, double precio, int existencia) {
+    public Producto() {
         this.idproducto = idproducto;
         this.referencia = referencia;
         this.descripcion = descripcion;
@@ -23,22 +23,25 @@ public class Producto {
         return idproducto;
     }
     public void setidproducto (int idproducto) {
-        this. idproducto = idproducto;
+        this.idproducto = idproducto;
     }
     public String getReferencia() {
         return referencia;
     }    
+    public void setReferencia(String referencia) {
+    	this.referencia = referencia;
+    }   
 public String getDescripcion() {
         return descripcion;
     }
-    public String setDescripcion() {
-        return descripcion;
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
 public String getDescripampliada() {
         return descripampliada;
     }
-    public String setDescripampliada () {
-        return descripampliada;
+    public void setDescripampliada (String descripampliada) {
+        this.descripampliada = descripampliada;
     }
     public double getPrecio() {
         return precio;
@@ -54,9 +57,6 @@ public String getDescripampliada() {
     }
 
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	
 
 }
