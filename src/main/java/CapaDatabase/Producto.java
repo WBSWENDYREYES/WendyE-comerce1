@@ -60,4 +60,6 @@ public String getDescripampliada() {
         return "Producto: " + descripcion + " - Precio: " + precio;
     }
 
+    
+    
 }
