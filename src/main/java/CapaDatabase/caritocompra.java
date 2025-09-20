@@ -19,6 +19,9 @@ public class caritocompra {
         calcularTotal();
     }
 
+    
+    
+    
     // Método para remover un producto
     public void removerProducto(Producto producto) {
         productos.remove(producto);

@@ -56,7 +56,8 @@ public String getDescripampliada() {
         this.existencia = existencia;
     }
 
-
-	
+    public String getDetalles() {
+        return "Producto: " + descripcion + " - Precio: " + precio;
+    }
 
 }
